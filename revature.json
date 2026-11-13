@@ -1,0 +1,30 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/ArrayAbsoluteValueTest.java",
+      "testCases": [
+        {
+          "methodName": "abvTest1",
+          "label": "Converts negative values to absolute values",
+          "description": "Verifies that negative numbers are converted to positive while positives remain unchanged."
+        },
+        {
+          "methodName": "abvTest2",
+          "label": "Validates absolute value array behavior",
+          "description": "Verifies absolute value transformation logic when given an array of all positive integers."
+        },
+        {
+          "methodName": "abvTest3",
+          "label": "Handles small arrays with mixed signs",
+          "description": "Verifies absolute value conversion for a short array containing only negative values."
+        },
+        {
+          "methodName": "abvTest4",
+          "label": "Processes larger array with mixed signs",
+          "description": "Verifies absolute value conversion when a given array contains zeros and negatives."
+        }
+      ]
+    }
+  ]
+}
